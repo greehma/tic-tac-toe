@@ -2,37 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>3x3 Grid</title>
-  <style>
-    .grid-container {
-      display: grid;              /* Enables CSS Grid layout */
-      grid-template-columns: repeat(3, 100px); /* 3 columns, each 100px wide */
-      grid-template-rows: repeat(3, 100px);    /* 3 rows, each 100px high */
-      gap: 10px;                  /* Space between the grid items */
-      justify-content: center;   /* Center grid horizontally */
-      margin-top: 50px;
-    }
-
-    .grid-item {
-    border: 2px solid grey;
-      color: white;
-      font-size: 24px;
-      display: flex;
-      justify-content: center; /* Center  horizontally */
-      align-items: center; /* Center  vertically */
-      border-radius: 8px;
-    }
-    button{
-      background-color: blue;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 8px;
-      font-size: 16px; 
-      cursor: pointer
-    }
-   
-  </style>
+  <title>tic tac toe</title>
 </head>
 <body>
 
@@ -52,11 +22,6 @@
     Click Me
   </button>
 </div>
-<script type="text/javascript" charset="utf-8">
-  let btn1 = document.querySelector(".btn1");
-  btn1.addEventListener("click", () => {
-    console.log("game started");
-  });
-</script>
+
 </body>
 </html>
