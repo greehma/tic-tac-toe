@@ -16,6 +16,8 @@
       align-items: center; /* Center  vertically */
       border-radius: 8px;
     }
+
+    /* styling button */
     button{
       background-color: blue;
       color: white;
